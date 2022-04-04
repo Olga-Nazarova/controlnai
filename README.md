@@ -32,3 +32,12 @@
 5. Последним шагом выведем в консоль получившийся массив: 
 >Console.Write(string.Join(Environtment.NewLine, arrayOne, 0, size));
 
+Таким вот простым способом мы решили данную задачу, использовав цикл *foreach*. Если данное решение показалось сложным, можно решить при помощи цикла  *for*, о ктором я говорила ранее: 
+
+>for(int i = 0; i < value.Length; i++ )
+- {
+    - string arrayOne = value[i];
+    - if (arrayOne. Length <3)
+    - Console.Write(arrayOne);
+- }
+

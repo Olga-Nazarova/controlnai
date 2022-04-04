@@ -30,7 +30,7 @@
 - }
 
 5. Последним шагом выведем в консоль получившийся массив: 
->Console.Write(string.Join(Environtment.NewLine, arrayOne, 0, size));
+>Console.Write(string.Join(Environment.NewLine, arrayOne, 0, size));
 
 Таким вот простым способом мы решили данную задачу, использовав цикл *foreach*. Если данное решение показалось сложным, можно решить при помощи цикла  *for*, о ктором я говорила ранее: 
 
